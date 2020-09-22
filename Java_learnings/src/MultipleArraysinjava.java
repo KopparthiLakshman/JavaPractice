@@ -12,6 +12,7 @@ class MultipleArraysinjava
 		int[] inputArray3 = {8, 4, 6, 2, 1};
 		int[] inputArray4 = {7, 9, 4, 1};
 		
+		
 		Integer[] inputArray6 = {2, 3, 4, 7, 1};
 		Integer[] inputArray7 = {4, 1, 3, 5};
 		Integer[] inputArray8 = {8, 4, 6, 2, 1};

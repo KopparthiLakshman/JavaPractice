@@ -32,9 +32,10 @@ public class Employee {
 		this.empName = empName;
 	}
 
-	
-	void display(){
-		System.out.println("Emp id :: "+ getEmpID() + "Emp name :: "+ getEmpName());
+
+	@Override
+	public String toString() {
+		return "Emp id :: "+ getEmpID() + "Emp name :: "+ getEmpName();
 	}
 
 }

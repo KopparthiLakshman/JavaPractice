@@ -2,9 +2,7 @@ package collections;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashSet;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 
 public class EntrySetHashMayObj {
@@ -26,16 +24,18 @@ public class EntrySetHashMayObj {
 		Set<Map.Entry<Integer, Employee>> entries = hashMap.entrySet();
 		
 		for (Map.Entry<Integer, Employee> entry : entries) {
-			System.out.println(entry.getKey());
+//			System.out.println(entry.getKey());
 			Employee emp = entry.getValue();
-			emp.display();
+			System.out.println(emp);
 		}
 	
+		System.out.println("-----------------------------------");
+		
 		Iterator<Integer> iterator;
 		iterator = hashMap.keySet().iterator();
 		while(iterator.hasNext()) {
 			Employee emp = hashMap.get(iterator.next());
-			emp.display();
+			System.out.println(emp);
 		}
 		
 		

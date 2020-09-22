@@ -1,6 +1,6 @@
 package compareTo;
 
-public class Laptop implements Comparable<Laptop>{
+public class Laptop /* implements Comparable<Laptop> */{
 
 	private String Brand;
 	private int Ram;
@@ -8,7 +8,6 @@ public class Laptop implements Comparable<Laptop>{
 	
 	public Laptop(String Brand, int Ram, int Price) {
 		
-		super();
 		this.Brand = Brand;
 		this.Ram = Ram;
 		this.Price = Price;
@@ -44,13 +43,10 @@ public class Laptop implements Comparable<Laptop>{
 		return "Laptop " + Brand+ " price "+Price+" and ram  "+Ram;
 	}
 	
-	@Override
-	public int compareTo(Laptop lap2) {
-		if (this.getRam() > lap2.getRam()) 
-			return 1;
-		else 
-			return -1;
-	}
+//	@Override
+//	public int compareTo(Laptop lap2) {
+//		return this.getBrand().compareTo(lap2.getBrand());
+//	}
 
 //	@Override
 //	public boolean equals(Object obj) {

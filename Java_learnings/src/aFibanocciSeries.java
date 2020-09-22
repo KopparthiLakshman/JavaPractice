@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class aFibanocciSeries {
 
@@ -9,6 +10,9 @@ public class aFibanocciSeries {
 		int count = 10;
 		int out;
 		
+		
+//		Scanner sc = new  Scanner(System.in);
+//		sc.next();
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		list.add(firstNumber);
 		list.add(secondNumber);
@@ -22,7 +26,7 @@ public class aFibanocciSeries {
 		}
 		
 		System.out.println(list);
-		
+//		sc.close();
 	}
 	
 }

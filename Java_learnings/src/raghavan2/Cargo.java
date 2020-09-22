@@ -1,39 +1,30 @@
 package raghavan2;
-public class Cargo extends Main {
-	protected Float length;
-	protected Float width;
-	protected Float height;
-	protected Double weight;
-	Cargo(){}
-	public Cargo(Float length, Float width, Float height, Double weight) {
-//		super.length = length;
+public class Cargo {
+	
+	protected int length;
+	protected int width;
+	protected int height;
+	protected int weight;
+	
+	public Cargo(int length, int width, int height, int weight) {
 		this.length = length;
 		this.height = height;
 		this.width = width;
 		this.weight = weight;
 	}
-	public Float getLength() {
-		return length;
-	}
-	public void setLength(Float length) {
-		this.length = length;
-	}
-	public Float getHeight() {
-		return height;
-	}
-	public void setHeight(Float height) {
-		this.height = height;
-	}
-	public Float getWidth() {
-		return width;
-	}
-	public void setWidth(Float width) {
-		this.width = width;
-	}
-	public Double getWeight() {
-		return weight;
-	}
-	public void setWeight(Double weight) {
-		this.weight = weight;
+	
+	/*
+	 * public int getLength() { return length; } public void setLength(int length) {
+	 * this.length = length; } public int getWidth() { return width; } public void
+	 * setWidth(int width) { this.width = width; } public int getHeight() { return
+	 * height; } public void setHeight(int height) { this.height = height; } public
+	 * int getWeight() { return weight; }
+	 * 
+	 * public void setWeight(int weight) { this.weight = weight; }
+	 */
+
+	@Override
+	public String toString() {
+		return  "length  : "+length; 
 	}
 }

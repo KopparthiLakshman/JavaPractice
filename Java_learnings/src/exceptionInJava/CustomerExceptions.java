@@ -6,7 +6,9 @@ public class CustomerExceptions{
 
 	
 	public static void main(String args[]) {  
-//				try{  
+
+		int a=0;
+		//				try{  
 //				}
 //				finally {
 //					System.out.println("....executing code inside finally block ...");
