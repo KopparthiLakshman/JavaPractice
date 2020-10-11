@@ -1,3 +1,4 @@
+
 package com.reusable;
 
 import java.util.Arrays;
@@ -9,7 +10,35 @@ public class ArraySorting {
 //		sort(inp);
 //		System.out.println(Arrays.toString(inp));
 //	}
+	public static void main(String[] args) {
 	
+		String[] inputArray1 = {"2", "3", "4", "7", "1"};
+		Integer[] inputArray2 = {4, 3, 5, 1};
+
+		sort1(inputArray2);
+		sort(inputArray1);
+		System.out.println(Arrays.asList(inputArray1));
+		
+	}
+	
+	private static void sort1(Integer[] inputArray2) {
+		
+		int temp = 0;
+		for (int i = 0; i < inputArray2.length-1; i++) {
+			if(inputArray2[i]>inputArray2[i+1])
+			{
+				temp = inputArray2[i];
+				inputArray2[i] = inputArray2[i+1];
+				inputArray2[i+1]= temp;
+				i = -1;
+			}
+		}
+		
+		System.out.println(Arrays.asList(inputArray2));
+	}
+	
+	
+
 	public static String[] sort(String[] inp) {
 		String t;
 		for(int i=0; i<inp.length; i++) {

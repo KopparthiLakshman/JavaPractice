@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Set;
 
 public class duplicatesUsingHashmap {
 
@@ -15,11 +14,16 @@ public class duplicatesUsingHashmap {
                 else
                     map.put(c,1);
             }
-            Set<Character> setChar = map.keySet();
-            for (Character character : setChar) {
-                if (map.get(character)>1) {
-                    System.out.println(character + "::"+map.get(character));
-                }
-            }
+            
+            System.out.println(map);
+            
+//            Iterator<Character> iterator = map.keySet().iterator();
+//            
+//            Set<Character> setChar = map.keySet();
+//            for (Character character : setChar) {
+//                if (map.get(character)>1) {
+//                    System.out.println(character + "::"+map.get(character));
+//                }
+//            }
     }
 }

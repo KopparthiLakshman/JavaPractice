@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * This program demonstrates how to read characters from a text file
  * using a BufferedReader for efficiency.
- * @author www.codejava.net
+ * 
  *
  */
 public class TextFileReadingExample3 {

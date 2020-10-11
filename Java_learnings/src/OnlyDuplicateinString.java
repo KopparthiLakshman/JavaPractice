@@ -4,7 +4,7 @@ public class OnlyDuplicateinString {
             char[] charry = str.toCharArray();
             char temp;
             int count =0;
-            StringBuffer seriesOfUnique = new StringBuffer();
+//            StringBuffer seriesOfUnique = new StringBuffer();
             StringBuffer allConsecutiveRepeate = new StringBuffer();
             for (int i = 0; i < charry.length; i++) {
                 count=1;

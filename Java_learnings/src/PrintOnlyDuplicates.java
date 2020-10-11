@@ -21,11 +21,11 @@ public class PrintOnlyDuplicates {
                 }
             }
             if(count==1)
-                seriesOfUnique.append(charry[i]);
+                seriesOfUnique.append(charry[i]).append("-").append(count).append(",");
             if(count>1)
-                allConsecutiveRepeate.append(charry[i]);
+                allConsecutiveRepeate.append(charry[i]).append("-").append(count).append(",");
         }
-        System.out.println(seriesOfUnique);
-        System.out.println(allConsecutiveRepeate);
+        System.out.println(seriesOfUnique.substring(0,seriesOfUnique.length()-1));
+        System.out.println(allConsecutiveRepeate.substring(0,seriesOfUnique.length()-1));
     }
 }

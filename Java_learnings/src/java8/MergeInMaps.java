@@ -1,3 +1,4 @@
+package java8;
 import java.util.HashMap;
 
 public class MergeInMaps {

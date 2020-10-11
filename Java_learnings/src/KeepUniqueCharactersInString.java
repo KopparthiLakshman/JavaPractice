@@ -27,5 +27,14 @@ public class KeepUniqueCharactersInString {
             }
         }
         System.out.println(sb1.deleteCharAt(sb1.length()-1));
+        
+        
+        int a = 10 , b =20;
+        
+        a = a+b;
+        b = a-b;
+        a = a-b;
+        System.out.println(a + ": : "+ b);
+        
     }
 }

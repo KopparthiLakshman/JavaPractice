@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayAndAL {
 
@@ -13,5 +14,12 @@ public class ArrayAndAL {
 		
 		/**Here no need to define size for array List - it will use dynamic array for creation*/
 		ArrayList<String> listOfString = new ArrayList<String>();
+		
+//		Collection of heterogeniuos elements
+		List list = new ArrayList<String>();
+		list.add(1);
+		list.add("String");
+		list.add(0.0F);
+		list.add('c');
 	}
 }

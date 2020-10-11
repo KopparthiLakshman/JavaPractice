@@ -3,15 +3,16 @@ import java.util.Stack;
 public class BlanacesParantheses {
 
 	public static void main(String[] args) {
-		String checkBalancedExpr1=checkBalancedParentesis("(())");
-		System.out.println("a*(b+c)-(d*e) : "+checkBalancedExpr1);
-		String checkBalancedExpr2=checkBalancedParentesis(" )()()( ");
-		System.out.println("(a*(b-c)*{d+e} : "+checkBalancedExpr2);
+		
+		System.out.println(checkBalancedParentesis("(())"));
+		System.out.println(checkBalancedParentesis(" )(()()( "));
+		System.out.println(checkBalancedParentesis(" (()()) "));
+		System.out.println(checkBalancedParentesis(" "));
 	}
 	public static String checkBalancedParentesis(String expr)
 	{
-		if (expr.isEmpty())
-			return "Balanced";
+		if (expr.trim().isEmpty())
+			return "String is empty";
 
 		Stack<Character> stack = new Stack<Character>();
 		for (int i = 0; i < expr.length(); i++)

@@ -1,8 +1,6 @@
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public final class terinary {
-	private static final Scanner scanner = new Scanner(System.in);
 
 	public final static void main(String[] args) throws FileNotFoundException {
 //		int[] arr = new int[5];

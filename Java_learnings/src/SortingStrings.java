@@ -1,12 +1,9 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class SortingStrings {
 	public static void main(String[] input)
 	{
-		int i,j,temp =0, c=1, bindex=0, n=0;
-		String t;
+		int temp =0, c=1, bindex=0, n=0;
 		String inp[];
 		//	        Scanner scan = new Scanner(System.in);
 		//	    	System.out.print("Enter Name : ");

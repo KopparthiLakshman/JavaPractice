@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 /**
  * This program demonstrates how to read characters from a text file using
  * a specified charset.
- * @author www.codejava.net
  *
  */
 public class TextFileReadingExample2 {

@@ -1,6 +1,5 @@
 package collections;
 
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -36,11 +35,10 @@ public class ConcurrentHashMapInJava {
 		Iterator<Map.Entry<Integer, String>> iterator = map.entrySet().iterator();		
 		
 		while (iterator.hasNext()) {
-			Map.Entry<Integer, String> ite = iterator.next();
-			System.out.println(ite.getValue());
-			map.put(6, "Interrup");
-			
+			map.put(10, "Interrup");
+			System.out.println(iterator.next().getValue());
 		}
 		
+		System.out.println(map);
 	}
 }

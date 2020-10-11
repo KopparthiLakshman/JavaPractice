@@ -22,15 +22,18 @@ public class childclass {
 		
 		for (Student l1 : list1) {
 			if (l1.getDept().equals("Commerce")) {
+				System.out.println(l1);
 				list2.add(l1.getName());
 				map.put(l1.getDept(), list2);
 			}
 			
 			else if (l1.getDept().equals("Physics")) {
+				System.out.println(l1);
 				list3.add(l1.getName());
 				map.put(l1.getDept(), list3);
 			}
 		}
 		System.out.println(map);
+		
 	}
 }

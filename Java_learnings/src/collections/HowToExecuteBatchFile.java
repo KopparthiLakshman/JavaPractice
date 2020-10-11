@@ -18,8 +18,8 @@ public class HowToExecuteBatchFile {
 		
 		List<Item> list1 = new ArrayList<>() ;
 		list1.add(new Item("lakshman", "abc"));
-		list1.add(new Item("lakshman", "abc"));
-		list1.add(new Item("lakshman", "abc"));
+		list1.add(new Item("Ram", "abc"));
+		list1.add(new Item("sita", "abc"));
 
 		Map<String,String> map = list1.stream().collect(
                 Collectors.toMap(Item::getCollege, Item::getName));

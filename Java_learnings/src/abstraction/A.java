@@ -19,6 +19,9 @@ interface AA {
 	default void m() { 
 		System.out.println("hello from A"); 
 	}
+	
+	void m1();
+	int m2();
 }
 
 interface B extends AA {
@@ -47,6 +50,18 @@ class Data implements B {
 	public void method2() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void m1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int m2() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
@@ -84,6 +99,18 @@ class D implements B, C {
 	public void delago() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void m1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int m2() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
 

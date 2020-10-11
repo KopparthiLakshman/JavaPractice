@@ -38,5 +38,9 @@ public class Student {
 		this.totalMarks = totalMarks;
 	}
 	
+	@Override
+	public String toString() {
 
+		return this.dept+"   ::  "+this.id;
+	}
 }
