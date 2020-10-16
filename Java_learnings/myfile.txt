@@ -1,0 +1,4 @@
+STLC stands for Software Testing Life Cycle. 
+STLC is a sequence of different activities performed by the testing team to ensure the quality of the software or the product. 
+STLC is an integral part of Software Development Life Cycle (SDLC). 
+But, STLC deals only with the testing phases.
