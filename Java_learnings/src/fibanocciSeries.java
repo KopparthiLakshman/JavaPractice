@@ -2,7 +2,7 @@
 public class fibanocciSeries {
 
     public static void main(String[] args) {
-        int a=0,b=1,c, num =10;
+        int a=0,b=1,c;
         System.out.println(a);
         System.out.println(b);
         for (int i = 2; i < 10; i++) {

@@ -2,7 +2,7 @@ public class OnlyDuplicateinString {
         public static void main(String[] args) {
             String str = "po556666aedgghhaaa1111a";
             char[] charry = str.toCharArray();
-            char temp;
+            char temp = 0;
             int count =0;
 //            StringBuffer seriesOfUnique = new StringBuffer();
             StringBuffer allConsecutiveRepeate = new StringBuffer();

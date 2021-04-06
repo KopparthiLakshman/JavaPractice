@@ -9,6 +9,7 @@ public class aFibanocciSeries {
 		int count = 10;
 		int out;
 		
+//		Integer.
 		
 //		Scanner sc = new  Scanner(System.in);
 //		sc.next();
@@ -27,5 +28,4 @@ public class aFibanocciSeries {
 		System.out.println(list);
 //		sc.close();
 	}
-	
 }

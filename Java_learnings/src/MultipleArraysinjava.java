@@ -56,6 +56,7 @@ class MultipleArraysinjava
 		}
 
 		Set<Integer> intersectionSet = new LinkedHashSet<>(Arrays.asList(inputArrays[0]));
+		
 		List<Integer> list = new ArrayList<>();
 		for (int i = 1; i < inputArrays.length; i++){
 			list = Arrays.asList(inputArrays[i]);

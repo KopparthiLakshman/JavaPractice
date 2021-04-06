@@ -2,8 +2,10 @@ package mapsInJava;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
@@ -24,15 +26,27 @@ public static void main(String[] args) {
     map.put(0,"lakshman");
     map.put(0,"");
     
+    map.put(null, null);
+    
     for (Map.Entry<Integer, String> string : map.entrySet()) {
     	System.out.println(string.getValue()+ " = " + string.getKey());
 	}
     
+    System.out.println("map :: "+map);
 //    List<String> str = new ArrayList<>();
 //    for (String string : str) {
 //		
 //	}
     
+//    try {
+		
+    	Hashtable<String, String> ht = new Hashtable<String, String>();
+    	ht.put(null, "nullvalue");
+    	System.out.println("Hast table :: " + ht);
+    	
+//	} catch (Exception e) {}
+    
+        
     TreeMap<Integer, String> tMap = new TreeMap<Integer, String>();
     tMap.put(0, "Tom");
     tMap.put(1, "insertion");

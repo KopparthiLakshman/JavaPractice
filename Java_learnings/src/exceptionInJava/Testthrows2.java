@@ -12,7 +12,7 @@ class M{
 
 
 /**1. If the superclass method declares an exception, 
- * subclass overridden method can declare same, 
+ * subclass overridden method can declare same exception or 
  * subclass exception or no exception but cannot declare parent exception.
  * 2. If the superclass method does not declare an exception, 
  * subclass overridden method cannot declare the checked exception

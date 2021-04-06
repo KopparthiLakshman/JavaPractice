@@ -8,6 +8,8 @@ public class BlanacesParantheses {
 		System.out.println(checkBalancedParentesis(" )(()()( "));
 		System.out.println(checkBalancedParentesis(" (()()) "));
 		System.out.println(checkBalancedParentesis(" "));
+		System.out.println(checkBalancedParentesis(")"));
+		System.out.println(checkBalancedParentesis("("));
 	}
 	public static String checkBalancedParentesis(String expr)
 	{

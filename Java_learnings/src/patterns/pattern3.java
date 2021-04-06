@@ -1,6 +1,6 @@
 package patterns;
 
-public class pattern1 {
+public class pattern3 {
 	public static void printTriagle(int n) { 
 		for (int i=0; i<n; i++) 
 		{ 
@@ -8,14 +8,14 @@ public class pattern1 {
 				System.out.print(" "); 
 			} 
 			for (int j=0; j<=i; j++ ) { 
-				System.out.print("* "); 
+				System.out.print(" *"); 
 			} 
 			System.out.println(); 
 		} 
 	} 
 
 	public static void main(String args[]) { 
-		int n = 4; 
+		int n = 5; 
 		printTriagle(n); 
 	} 
 }

@@ -27,8 +27,8 @@ public class CompareOverrideClass {
 			System.out.println(lap);
 		}
 
-
 		
+
 		Comparator<Laptop> compareUsingBrand = new Comparator<Laptop>() {
 			@Override
 			public int compare(Laptop o1, Laptop o2) {
@@ -45,6 +45,11 @@ public class CompareOverrideClass {
 					return -1;
 			}
 		};
+
+		ArrayList<Integer> ilist = new ArrayList<Integer>();
+		
+		list.sort(compareUsingBrand);
+		Collections.sort(ilist);;
 
 		System.out.println("*** Sorting of list using BRAND name ***");
 		Collections.sort(list, compareUsingBrand);

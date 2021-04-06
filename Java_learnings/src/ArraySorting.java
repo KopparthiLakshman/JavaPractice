@@ -1,5 +1,5 @@
 
-package com.reusable;
+
 
 import java.util.Arrays;
 
@@ -12,13 +12,12 @@ public class ArraySorting {
 //	}
 	public static void main(String[] args) {
 	
-		String[] inputArray1 = {"2", "3", "4", "7", "1"};
-		Integer[] inputArray2 = {4, 3, 5, 1};
-
-		sort1(inputArray2);
-		sort(inputArray1);
-		System.out.println(Arrays.asList(inputArray1));
+//		String[] inputArray1 = {"2", "3", "4", "7", "1"};
+//		sort(inputArray1);
+//		System.out.println(Arrays.asList(inputArray1));
 		
+		Integer[] inputArray2 = {8, 2, 4, 9, 3, 7, 5, 1, 7, 0};
+		sort1(inputArray2);
 	}
 	
 	private static void sort1(Integer[] inputArray2) {
@@ -31,6 +30,7 @@ public class ArraySorting {
 				inputArray2[i] = inputArray2[i+1];
 				inputArray2[i+1]= temp;
 				i = -1;
+				System.out.println("Lakshman");
 			}
 		}
 		

@@ -11,7 +11,7 @@ public abstract class abs1 implements interabs1{
 }
 
 abstract class absInner extends abs1{
-
+	
 	@Override
 	public void abs1Method2() {
 

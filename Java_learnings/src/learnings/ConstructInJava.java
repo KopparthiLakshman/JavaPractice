@@ -13,7 +13,7 @@ public class ConstructInJava {
 
 	
 	
-	/***Covered both constructor initialising default value to variable 
+	/***Covered both constructor initializing default value to variable 
 	 * and how to create create anonymous object in java */ 
 	
 	public static void main(String[] args) {

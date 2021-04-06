@@ -5,8 +5,9 @@ public class TestThrow1{
 	
 		if(age<18)
 			try {
-				throw new UserNotFoundExceptio("not valid");
-			} catch (UserNotFoundExceptio e) {
+//				throw new UserNotFoundExceptio("not valid");
+				throw new ArithmeticException("My definition of throw");
+			} catch (ArithmeticException e) {
 				e.printStackTrace();
 			}
 		else  

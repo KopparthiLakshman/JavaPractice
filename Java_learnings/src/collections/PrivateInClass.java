@@ -3,10 +3,10 @@ package collections;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class comap {
+public class PrivateInClass {
 
-	// we cannot create super class as private
-	private class ass{
+	// we cannot create MAIN class as private
+	private class InnerPrivateClass{
 		
 	}
 	

@@ -5,7 +5,7 @@ public class KeepUniqueCharactersInString {
 //    	input = sssssffffaaaa3435aa
 //    	output1 = s5 ,f4 ,a6 ,32 ,41 ,51
 //    	output2 = sfa345 **Which are the unique characters in the provided string 
-      String str = "sssssffffaaaa3435aa";
+      String str = "sssssffffaaaa3435aas";
 //        char[] arr =  str.toCharArray();
         int count=0;
         StringBuffer sb = new StringBuffer(str);

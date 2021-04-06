@@ -25,7 +25,7 @@ public class exam extends inner{
 class inner{
 	
 	public inner() {
-		System.out.println("inner");
+		System.out.println("Printing From super calss constructor inner");
 	}
 }
 

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortingStrings2 {
+public class StringSplit {
 	public static void main(String[] input)
 	{
 		int temp =0, c=0, bindex=0, n=0;

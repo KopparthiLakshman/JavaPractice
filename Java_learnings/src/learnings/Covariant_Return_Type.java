@@ -8,7 +8,7 @@ public class Covariant_Return_Type {
 }  
 
 class B1 extends Covariant_Return_Type{  
-	/**Eventhough Java doesnot allow overrding different return types
+	/**Even though Java does not allow overrding different return types
 	 * JVM allow 
 	 * @return */
 	

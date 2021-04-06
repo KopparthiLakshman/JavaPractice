@@ -17,7 +17,6 @@ public class aaabbbcccqwer {
 					}
 				else {
 					break;
-					
 				}
 			}
 			output.append(Integer.toString(c)+Character.toString(arr[i]));

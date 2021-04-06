@@ -1,7 +1,7 @@
 import java.util.regex.Pattern;  
 class RegexExample2{  
 	public static void main(String args[]){  
-		System.out.println(Pattern.matches("[a-z]+", "lakshman"));
+		System.out.println(Pattern.matches("[0-9]+", "lakshman"));
 
 		String numstr = "srg9 4h90asd6dfh0jdsdjryjs rnss gw0 aaaa6s5asd2";
 		char[] carr = numstr.toCharArray();

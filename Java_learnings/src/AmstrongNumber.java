@@ -11,6 +11,8 @@ public class AmstrongNumber {
 		{
 			do {
 				temp = a%10;
+				System.out.println("temp  :: "+ temp);
+				System.out.println("a  :: "+ a);
 				sum = sum + temp*temp*temp;
 				a = a/10;
 			}while(a>0);
