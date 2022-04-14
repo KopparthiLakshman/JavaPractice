@@ -1,4 +1,5 @@
 
+
 class ReverseLinkedList {
 
 	static Node head;
