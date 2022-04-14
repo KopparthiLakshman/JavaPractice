@@ -1,4 +1,3 @@
-package Programs;
 
 class SieveOfEratosthenes_primeNumbers {
 	void sieveOfEratosthenes(int n)
